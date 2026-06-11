@@ -9,9 +9,9 @@ export default function Hero() {
     <section id="home" className="relative overflow-hidden pt-20">
       <Container className="relative grid min-h-[500px] items-center gap-8 pb-6 lg:grid-cols-[0.95fr_0.9fr]">
         <motion.div
-          initial={{ opacity: 0, y: 18 }}
+          initial={{ opacity: 0, y: 34 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1] }}
           className="relative z-10"
         >
           <h1 className="max-w-2xl font-serif text-5xl font-black leading-[0.98] sm:text-6xl lg:text-[4.6rem]">
@@ -48,9 +48,9 @@ export default function Hero() {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.97 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.7, delay: 0.1 }}
+          initial={{ opacity: 0, y: 28, scale: 0.92 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ duration: 0.9, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
           className="relative mx-auto h-[390px] w-full max-w-[430px]"
         >
           <div className="pointer-events-none absolute left-2 top-40 z-[12] hidden w-[340px] select-none overflow-hidden font-serif text-[3.35rem] font-black leading-[0.84] text-green opacity-75 drop-shadow-[0_8px_18px_rgba(15,45,31,0.18)] [-webkit-text-stroke:1px_#173F2A] lg:block">

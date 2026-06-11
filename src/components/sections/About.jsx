@@ -8,9 +8,10 @@ export default function About() {
     <section id="about" className="border-b border-line bg-cream py-8">
       <Container className="grid gap-8 lg:grid-cols-[230px_0.75fr_1fr_240px] lg:items-center">
         <motion.div
-          initial={{ opacity: 0, y: 18 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          initial={{ opacity: 0, y: 36, scale: 0.94 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true, margin: '-80px' }}
+          transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           className="relative h-48 overflow-hidden rounded-2xl bg-[#d9c7aa] shadow-soft"
         >
           <img

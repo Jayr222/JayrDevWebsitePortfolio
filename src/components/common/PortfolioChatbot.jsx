@@ -55,6 +55,30 @@ function getReply(message) {
     };
   }
 
+  if (normalized.includes('service') || normalized.includes('offer') || normalized.includes('build for me')) {
+    return {
+      text: 'Jayr offers full-stack web apps, UI/UX-focused websites, AI automation systems, Shopify/e-commerce builds, and mobile app workflows.',
+      anchor: '#services',
+      linkLabel: 'View services',
+    };
+  }
+
+  if (normalized.includes('process') || normalized.includes('work with') || normalized.includes('timeline')) {
+    return {
+      text: 'The process is simple: discover the goal, design the flow, build the product, then polish and launch it.',
+      anchor: '#process',
+      linkLabel: 'See process',
+    };
+  }
+
+  if (normalized.includes('faq') || normalized.includes('question')) {
+    return {
+      text: 'The FAQ section covers services, AI automation, working from designs, and how to start a project inquiry.',
+      anchor: '#faq',
+      linkLabel: 'Read FAQ',
+    };
+  }
+
   if (normalized.includes('project') || normalized.includes('work') || normalized.includes('portfolio')) {
     return {
       text: `There are ${projects.length} featured projects, including ${projects.slice(0, 4).map((project) => project.title).join(', ')} and more.`,
@@ -85,6 +109,7 @@ function getReply(message) {
     linkLabel: 'View projects',
     actions: [
       { label: 'See skills', href: '#skills' },
+      { label: 'Services', href: '#services' },
       { label: 'Contact Jayr', href: '#contact-form' },
     ],
   };

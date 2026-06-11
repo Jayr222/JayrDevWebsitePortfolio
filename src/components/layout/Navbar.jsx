@@ -7,8 +7,9 @@ const links = [
   { label: 'About', href: '#about' },
   { label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
-  { label: 'Case Studies', href: '#case-studies' },
-  { label: 'Experience', href: '#skills' },
+  { label: 'Services', href: '#services' },
+  { label: 'Process', href: '#process' },
+  { label: 'FAQ', href: '#faq' },
 ];
 
 export default function Navbar() {

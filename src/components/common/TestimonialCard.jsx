@@ -1,8 +1,15 @@
+import { motion } from 'framer-motion';
 import { Quote } from 'lucide-react';
 
-export default function TestimonialCard({ testimonial }) {
+export default function TestimonialCard({ testimonial, index = 0 }) {
   return (
-    <article className="rounded-xl border border-line bg-[#f8f1e6] p-6">
+    <motion.article
+      initial={{ opacity: 0, y: 36, scale: 0.96 }}
+      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+      viewport={{ once: true, margin: '-80px' }}
+      transition={{ duration: 0.65, delay: index * 0.08, ease: [0.22, 1, 0.36, 1] }}
+      className="rounded-xl border border-line bg-[#f8f1e6] p-6"
+    >
       <Quote className="h-9 w-9 fill-gold text-gold" />
       <p className="mt-6 min-h-24 text-xs leading-6 text-muted">{testimonial.quote}</p>
       <div className="mt-7 flex items-center gap-3">
@@ -17,6 +24,6 @@ export default function TestimonialCard({ testimonial }) {
           <p className="text-xs text-muted">{testimonial.role}</p>
         </div>
       </div>
-    </article>
+    </motion.article>
   );
 }

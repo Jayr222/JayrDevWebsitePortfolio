@@ -1,20 +1,20 @@
 export const testimonials = [
   {
     quote:
-      'Jayr turns complex ideas into clean web experiences with a rare mix of technical care and visual taste.',
-    name: 'Mika Reyes',
-    role: 'Founder, BrightOps Studio',
+      'Jayr built a clear appointment workflow that made the healthcare booking process easier to manage and understand.',
+    name: 'Jhasmin',
+    role: 'Healthcare Appointment System',
   },
   {
     quote:
-      'The automation workflow saved us hours each week, and the interface felt simple enough for the whole team to use.',
-    name: 'Daniel Cruz',
-    role: 'Operations Lead',
+      'The Cafe Viet website captured the brand direction well and gave the cafe a premium, modern online presence.',
+    name: 'Jesus Fajardo',
+    role: 'Cafe Viet',
   },
   {
     quote:
-      'Reliable, responsive, and thoughtful. Jayr delivered a website that looked premium and performed beautifully.',
-    name: 'Angela Lim',
-    role: 'Small Business Owner',
+      'StudyHub feels polished and useful, especially with the AI tutor, flashcards, and quiz flow built around study materials.',
+    name: 'Marl',
+    role: 'StudyHub',
   },
 ];

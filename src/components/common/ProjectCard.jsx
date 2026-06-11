@@ -6,10 +6,10 @@ export default function ProjectCard({ project, index }) {
 
   return (
     <motion.article
-      initial={{ opacity: 0, y: 18 }}
-      whileInView={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0, y: 42, scale: 0.96 }}
+      whileInView={{ opacity: 1, y: 0, scale: 1 }}
       viewport={{ once: true, margin: '-80px' }}
-      transition={{ duration: 0.45, delay: index * 0.07 }}
+      transition={{ duration: 0.68, delay: index * 0.09, ease: [0.22, 1, 0.36, 1] }}
       className="group overflow-hidden rounded-xl border border-line bg-[#f8f1e6]"
     >
       <div className="p-4">

@@ -54,6 +54,9 @@ body {
 
   .hero-outline-type {
     animation: hero-outline-type 6s cubic-bezier(0.45, 0, 0.2, 1) infinite both;
+    color: #f5b21a;
+    -webkit-text-stroke: 0;
+    text-shadow: none;
     clip-path: inset(0 100% 0 0);
     opacity: 0;
   }

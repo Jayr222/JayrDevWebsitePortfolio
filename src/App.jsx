@@ -7,6 +7,9 @@ import Experience from './components/sections/Experience';
 import Projects from './components/sections/Projects';
 import CaseStudies from './components/sections/CaseStudies';
 import Testimonials from './components/sections/Testimonials';
+import Services from './components/sections/Services';
+import Process from './components/sections/Process';
+import FAQ from './components/sections/FAQ';
 import Contact from './components/sections/Contact';
 import PortfolioChatbot from './components/common/PortfolioChatbot';
 import useLenis from './hooks/useLenis';
@@ -25,6 +28,9 @@ export default function App() {
         <Projects />
         <CaseStudies />
         <Testimonials />
+        <Services />
+        <Process />
+        <FAQ />
         <Contact />
       </main>
       <Footer />
