@@ -1,5 +1,6 @@
 import {
   Bot,
+  Barcode,
   Braces,
   BriefcaseBusiness,
   Clock3,
@@ -13,6 +14,7 @@ import {
   Rocket,
   Server,
   ShoppingBag,
+  Smartphone,
   Workflow,
 } from 'lucide-react';
 import { experience } from '../../data/experience';
@@ -33,7 +35,10 @@ const skillIcons = {
   PostgreSQL: Database,
   Shopify: ShoppingBag,
   Supabase: Database,
+  Flutter: Smartphone,
+  Dart: Code2,
   Python: Code2,
+  'Barcode Scanning': Barcode,
   n8n: Workflow,
   'AI Agents': Bot,
   RAG: Bot,
@@ -86,9 +91,9 @@ export default function Skills() {
         </div>
 
         <div className="grid content-start gap-4">
-          <StatCard icon={Rocket} value="15+" label="Projects Completed" highlighted />
-          <StatCard icon={BriefcaseBusiness} value="10+" label="Happy Clients" />
-          <StatCard icon={Clock3} value="3+" label="Years Experience" light />
+          <StatCard icon={Rocket} value="7" label="Projects Completed" highlighted />
+          <StatCard icon={BriefcaseBusiness} value="4" label="Live Deployments" />
+          <StatCard icon={Clock3} value="5+" label="Years Experience" light />
           <a
             href="#contact"
             className="inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-gold px-5 text-xs font-bold text-gold transition hover:bg-gold hover:text-ink"

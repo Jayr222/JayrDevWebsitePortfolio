@@ -63,7 +63,7 @@ export default function Contact() {
         <div className="grid overflow-hidden rounded-xl border border-white/20 bg-white/8 md:grid-cols-[0.86fr_1fr]">
           <div className="relative min-h-72 bg-[#d9c7aa]">
             <img
-              src="/images/avatar-no-background.png"
+              src="/images/avatar.png"
               alt="Jayr Agamata portrait"
               className="h-full min-h-72 w-full object-cover object-[50%_18%] grayscale"
             />
@@ -78,7 +78,7 @@ export default function Contact() {
               I&apos;m always open to discussing new projects, creative ideas, or opportunities to be
               part of your vision.
             </p>
-            <Button href="mailto:jayragamata68@gmail.com" variant="gold" className="mt-7 min-h-11 rounded-lg px-6 text-xs">
+            <Button href="#contact-form" variant="gold" className="mt-7 min-h-11 rounded-lg px-6 text-xs">
               Contact Me
             </Button>
           </div>
@@ -99,7 +99,7 @@ export default function Contact() {
             </div>
           ))}
         </div>
-        <form className="grid gap-4" onSubmit={handleSubmit}>
+        <form id="contact-form" className="scroll-mt-24 grid gap-4" onSubmit={handleSubmit}>
           <div className="grid gap-4 sm:grid-cols-2">
             <input
               className="min-h-12 rounded-lg border border-white/20 bg-green-deep/35 px-4 text-sm outline-none placeholder:text-cream/45 focus:border-gold"

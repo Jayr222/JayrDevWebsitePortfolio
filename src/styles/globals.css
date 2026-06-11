@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Azonix';
+  src: local('Azonix');
+  font-display: swap;
+}
+
 :root {
   color: #111111;
   background: #f8f3e8;
@@ -18,6 +24,7 @@ html {
 body {
   margin: 0;
   min-width: 320px;
+  font-family: 'Azonix', Inter, ui-sans-serif, system-ui, sans-serif;
   background:
     radial-gradient(circle at 18% 8%, rgba(245, 178, 26, 0.12), transparent 28rem),
     linear-gradient(180deg, #fbf7ee 0%, #f8f3e8 40%, #f6efe2 100%);
@@ -43,5 +50,34 @@ body {
 
   .section-pad {
     @apply py-20 md:py-28;
+  }
+
+  .hero-outline-type {
+    animation: hero-outline-type 5.4s steps(8, end) infinite;
+    clip-path: inset(0 100% 0 0);
+  }
+
+  .hero-outline-type-delay-1 {
+    animation-delay: 0.65s;
+  }
+
+  .hero-outline-type-delay-2 {
+    animation-delay: 1.3s;
+  }
+}
+
+@keyframes hero-outline-type {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+
+  18%,
+  72% {
+    clip-path: inset(0 0 0 0);
+  }
+
+  88%,
+  100% {
+    clip-path: inset(0 100% 0 0);
   }
 }

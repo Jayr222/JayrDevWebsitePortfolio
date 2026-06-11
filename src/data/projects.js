@@ -54,7 +54,7 @@ export const projects = [
     description:
       'A dashboard concept for an AI-powered assistant that helps teams monitor workflows and business tasks.',
     tech: ['AI Agents', 'n8n', 'Dashboard'],
-    link: '#contact',
+    link: 'https://ai-business-assistant-v2.vercel.app/login',
     image: '/images/ai-business-assistant-dashboard.jpeg',
     accent: 'from-green-deep to-[#264D39]',
     caseStudy: {
@@ -65,19 +65,51 @@ export const projects = [
     },
   },
   {
-    title: 'Proximity Design System',
-    type: 'UI/UX Design',
+    title: 'Proximity',
+    type: 'Dating App UI/UX',
     description:
-      'A focused interface design exploration around spacing, hierarchy, component rhythm, and clean layout systems.',
-    tech: ['Figma', 'UI/UX', 'Design'],
-    link: '#contact',
+      'A dating app UI/UX concept focused on profile discovery, onboarding flow, visual hierarchy, and mobile-first interaction.',
+    tech: ['Figma', 'UI/UX', 'Mobile App'],
+    link: 'https://github.com/Jayr222/Sales_and_inventory_system',
     image: '/images/figma-proximity-design.jpeg',
+    video: '/images/proximity-video-presentation.mp4',
     accent: 'from-[#111111] to-[#3B3B3B]',
     caseStudy: {
-      problem: 'Interfaces can feel cluttered when spacing, hierarchy, and component rules are not clearly defined.',
-      solution: 'Built a design exploration focused on proximity, layout rhythm, and reusable interface patterns.',
-      impact: 'Demonstrates design judgment beyond visuals by showing how structure can make interfaces easier to scan.',
-      role: 'UI/UX exploration, design systems, component layout',
+      problem: 'Dating apps need to feel personal and easy to use while helping users move quickly from onboarding to discovery.',
+      solution: 'Designed a mobile-first dating experience with clear profile presentation, simple choices, and strong visual rhythm.',
+      impact: 'Shows how thoughtful hierarchy and interaction flow can make a dating product feel more approachable and engaging.',
+      role: 'Mobile UI/UX, onboarding flow, dating app concept',
+    },
+  },
+  {
+    title: 'Cafe Theme Shopify',
+    type: 'Shopify Store',
+    description:
+      'A cafe-inspired Shopify storefront concept with polished product presentation and responsive commerce layout.',
+    tech: ['Shopify', 'UI/UX', 'E-commerce'],
+    link: '#contact',
+    image: '/images/cafe-theme-shopify.png',
+    accent: 'from-[#7A4A2A] to-[#F5B21A]',
+    caseStudy: {
+      problem: 'Small food and beverage brands need an online storefront that feels premium without making shopping feel complicated.',
+      solution: 'Created a Shopify storefront direction with warm visuals, clear product sections, and conversion-focused spacing.',
+      impact: 'Shows how brand storytelling and commerce structure can work together in a responsive storefront experience.',
+      role: 'Shopify theme direction, product UI, e-commerce UX',
+    },
+  },
+  {
+    title: 'Sales & Inventory System',
+    type: 'Inventory App',
+    description:
+      'A sales and inventory management system built with Flutter and Dart, with Python-powered barcode scanning for faster product tracking.',
+    tech: ['Flutter', 'Dart', 'Python', 'Barcode'],
+    link: '#contact',
+    accent: 'from-[#123A2A] to-[#F26B3A]',
+    caseStudy: {
+      problem: 'Small businesses need a faster way to track products, sales activity, and inventory movement without relying on manual entry.',
+      solution: 'Built a Flutter-based app workflow with Python barcode scanning to speed up product lookup and inventory updates.',
+      impact: 'Reduces repetitive input, improves stock visibility, and gives the business a cleaner process for daily sales operations.',
+      role: 'Mobile app build, barcode workflow, inventory UX',
     },
   },
 ];

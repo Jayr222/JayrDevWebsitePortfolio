@@ -16,8 +16,9 @@ export default {
         line: '#E5DCCB',
       },
       fontFamily: {
-        serif: ['Georgia', 'Cambria', 'Times New Roman', 'serif'],
-        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        serif: ['Azonix', 'Georgia', 'Cambria', 'Times New Roman', 'serif'],
+        display: ['Azonix', 'Georgia', 'Cambria', 'Times New Roman', 'serif'],
+        sans: ['Azonix', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
         soft: '0 18px 60px rgba(17, 17, 17, 0.08)',

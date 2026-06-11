@@ -14,7 +14,7 @@ export default function About() {
           className="relative h-48 overflow-hidden rounded-2xl bg-[#d9c7aa] shadow-soft"
         >
           <img
-            src="/images/avatar-no-background.png"
+            src="/images/avatar.png"
             alt="Jayr Agamata portrait"
             className="h-full w-full object-cover object-[50%_18%] grayscale"
           />

@@ -1,20 +1,20 @@
 export const experience = [
   {
-    period: '2025 - Present',
+    period: '2024 - 2026',
     role: 'Full-Stack Developer & AI Automation Specialist',
     company: 'Independent Projects',
     description:
-      'Building responsive web apps, AI workflows, automations, and branded digital experiences for business use cases.',
+      'Built full-stack web apps, AI workflows, automations, and branded digital experiences across portfolio and client-style projects.',
   },
   {
-    period: '2024 - 2025',
+    period: '2022 - 2024',
     role: 'UI/UX-Focused Web Builder',
     company: 'Client & Portfolio Work',
     description:
-      'Designed polished interfaces, project landing pages, dashboards, and e-commerce experiences with modern frontend stacks.',
+      'Designed polished interfaces, landing pages, dashboards, e-commerce layouts, and mobile-first product concepts.',
   },
   {
-    period: '2023 - 2024',
+    period: '2021 - 2022',
     role: 'Frontend Developer',
     company: 'Applied Learning',
     description:

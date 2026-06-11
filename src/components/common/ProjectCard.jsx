@@ -14,7 +14,19 @@ export default function ProjectCard({ project, index }) {
     >
       <div className="p-4">
         <div className="relative h-52 overflow-hidden rounded-lg bg-cream">
-          {project.image ? (
+          {project.video ? (
+            <video
+              className="h-full w-full object-cover object-top transition duration-500 group-hover:scale-[1.03]"
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              poster={project.image}
+              controls
+            >
+              <source src={project.video} type="video/mp4" />
+            </video>
+          ) : project.image ? (
             <img
               src={project.image}
               alt={`${project.displayTitle || project.title} screenshot`}
