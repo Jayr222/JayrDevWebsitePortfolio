@@ -8,6 +8,7 @@ import Projects from './components/sections/Projects';
 import CaseStudies from './components/sections/CaseStudies';
 import Testimonials from './components/sections/Testimonials';
 import Contact from './components/sections/Contact';
+import PortfolioChatbot from './components/common/PortfolioChatbot';
 import useLenis from './hooks/useLenis';
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <PortfolioChatbot />
     </div>
   );
 }

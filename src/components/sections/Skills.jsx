@@ -77,10 +77,11 @@ export default function Skills() {
 
         <div>
           <p className="text-[11px] font-bold text-gold">Experience</p>
-          <div className="relative mt-7 border-l border-gold/35 pl-10">
+          <div className="timeline-track relative mt-7 border-l border-gold/35 pl-10">
+            <span className="timeline-runner" aria-hidden="true" />
             {experience.map((item) => (
               <article key={item.role} className="relative pb-9 last:pb-0">
-                <span className="absolute -left-[2.85rem] top-1 h-5 w-5 rotate-45 bg-orange" />
+                <span className="absolute -left-[2.875rem] top-2 h-3 w-3 rounded-full border border-gold bg-green shadow-[0_0_0_5px_rgba(245,178,26,0.08)]" />
                 <p className="text-xs text-cream/70">{item.period}</p>
                 <h3 className="mt-1.5 font-serif text-xl font-bold leading-tight">{item.role}</h3>
                 <p className="mt-1 text-xs font-semibold text-cream">{item.company}</p>
