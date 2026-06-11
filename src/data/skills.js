@@ -1,0 +1,18 @@
+export const skills = [
+  'React',
+  'Next.js',
+  'JavaScript',
+  'TypeScript',
+  'Tailwind CSS',
+  'Node.js',
+  'Express.js',
+  'MongoDB',
+  'PostgreSQL',
+  'Shopify',
+  'Supabase',
+  'Python',
+  'n8n',
+  'AI Agents',
+  'RAG',
+  'UI/UX Design',
+];
